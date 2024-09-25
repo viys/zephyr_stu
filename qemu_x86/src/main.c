@@ -4,7 +4,7 @@
 int main(void) {
 	int i = 0;
 	while (1) {
-		printf("Hello zephyr %d\n", i++);
+		printk("Hello zephyr %d\n", i++);
 		k_sleep(K_MSEC(1000));
 	}
 	return 0;
